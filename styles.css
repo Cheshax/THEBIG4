@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(	12,	12,	12);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+p{
+    color: white;
+    cursor: default;
+}
+#Container{
+    height: 15000px;
+    width: 98vw;
+
+}
+img{
+    border-radius: 12px;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.263));
+}
+/*NAVBARS*/
+#Navigator{
+    height: 58px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+    border-style: solid;
+    border-color: rgba(227, 227, 227, 0.493);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    
+}
+.navitems{
+    height: 58px;
+    margin: 0;
+    padding: 0;
+    width: 466px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-peeps{
+    margin: 0 20px;
+    cursor: pointer;
+}
+#nav-thebig4{
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#rightnavmemories{
+    font-weight: bold;
+    cursor: pointer;
+}
+/*End of navigator*/
+/*Landingpage*/
+#landingcontent{
+    width: 98vw;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+#THEBIG4img{
+    width: 352.5px;
+    height: 470px;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.263));
+}
+#leftsidelanding{
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 64px;
+}
+#rightsidelanding{
+    margin: 0;
+    padding: 0;
+    height: 87vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#THEBIG4landingbig{
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-top: 132px;
+}
+#landingwords {
+    text-align: center;
+}
+#exploreourfs{
+    margin-top: 117px;
+    margin-bottom: 0;
+}
+/*End of Landingpage*/
+/*Explorepart*/
+#firstexplore{
+    width: 78vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#firstexplorepic{
+    width: 472px;
+    height: 350px;
+    margin-right: 10vw;
+}
+#firstexploretext{
+    text-align: center;
+}
+#secondexplore{
+    width: 78vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#secondexplorepic{
+    width: 421px;
+    height: 530px;
+    margin-left: 10vw;
+}
+#secondexploretext{
+    text-align: center;
+}
+#thirdexplore{
+    width: 78vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#thirdexplorepic{
+    width: 472px;
+    height: 620px;
+    margin-right: 10vw;
+}
+#thirdexploretext{
+    text-align: center;
+}
+/*End of Explorepart*/
+/*Thisisthem*/
+#Thisisthem{
+    width: 98vw;
+    height: 59vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Thisisthemtext{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+/*End of Thisisthem*/
+/* Them*/
+#Yana-them{
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#yanapic{
+    width: 309px;
+    margin-right:35vh;
+}
+#yana-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#yanadescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#yanadescribetext{
+    
+    text-align: center;
+}
+#kaka-them{
+    width: 87vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#kakapic{
+    width: 309px;
+    margin-right:35vh;
+}
+#kaka-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#kakadescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#kakadescribetext{
+    
+    text-align: center;
+}
+#nell-them{
+    width: 95vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#nellpic{
+    width: 346px;
+    margin-right:35vh;
+}
+#nell-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#nelldescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#nelldescribetext{
+    text-align: center;
+}
+#me-them{
+    width: 93vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+#mepic{
+    width: 388px;
+    margin-right:35vh;
+}
+#me-description{
+    text-align: left;
+    line-height: 2.5;
+}
+#medescribe{
+    width: 75vw;
+    height: 50vh;
+    padding-left: 25vh;
+    padding-right: 24vh;
+    
+}
+#medescribetext{
+    text-align: center;
+}
+/*End of them*/
+/* Memories */
+#Memoriesstarting{
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+#memoriesbig{
+    font-weight: bolder;
+    font-size: 64px;
+    letter-spacing: 10px;
+}
+#memoriestext{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#firstmemories{
+    width: 78vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#firstmemoriespic{
+    width: 500px;
+    margin-left: 10vw;
+}
+#firstmemoriestext{
+    text-align: center;
+}
+#secondmemories{
+    width: 78vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#secondmemoriespic{
+    width: 380px;
+}
+#secondmemoriestext{
+    text-align: center;
+    margin-left: 15vw;
+}
+#thirdmemories{
+    width: 78vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#thirdmemoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#thirdmemoriestext{
+    text-align: center;
+}
+#fourthmemories{
+    width: 78vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#fourthmemoriespic{
+    width: 380px;
+}
+#fourthmemoriestext{
+    text-align: center;
+    margin-left: 15vw;
+}
+#fifthmemories{
+    width: 78vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#fifthmemoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#fifthmemoriestext{
+    text-align: center;
+}
+#sixmemories{
+    width: 78vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#sixmemoriespic{
+    width: 500px;
+}
+#sixmemoriestext{
+    text-align: center;
+    margin-left: 15vw;
+}
+#sevenmemories{
+    width: 78vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#sevenmemoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#sevenmemoriestext{
+    text-align: center;
+}
+#eightmemories{
+    width: 78vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#eightmemoriespic{
+    width: 600px;
+}
+#eightmemoriestext{
+    text-align: center;
+    margin-left: 10vw;
+}
+#ninememories{
+    width: 78vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#ninememoriespic{
+    width: 600px;
+    margin-left: 10vw;
+}
+#ninememoriestext{
+    text-align: center;
+}
+#tenmemories{
+    width: 78vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#tenmemoriespic{
+    width: 600px;
+}
+#tenmemoriestext{
+    text-align: center;
+    margin-left: 10vw;
+}
+#elememories{
+    width: 78vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+#elememoriespic{
+    width: 400px;
+    margin-left: 10vw;
+}
+#elememoriestext{
+    text-align: center;
+}
+/* End of memories */
+#morememories{
+    width: 98vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+}
+#morememoriestext{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
